@@ -1,2 +1,2 @@
 # NFPaint
-Un outil de dessin franco-françain simple pour calculatrice Numworks
+Un outil de dessin franco-français simple pour calculatrice Numworks
