@@ -4,6 +4,10 @@ from ion import *
 
 pendown()
 
+# Initialisation de la variable taille
+
+s=1
+
 #introduction
 
 print("Bienvenue dans NFPaint, un outil de dessin simple pour Numworks !")
@@ -43,3 +47,25 @@ if keydown(KEY_MINUS):
 
 # Contrôles
 
+if keydown(KEY_RIGHT):
+  setheading(0)
+  forward(1)
+
+if keydown(KEY_UP):
+  setheading(90)
+  forward(1)
+
+if keydown(KEY_LEFT):
+  setheading(180)
+  forward(1)
+
+if keydown(KET_DOWN):
+  setheading(270)
+  forward(1)
+
+if keydown(KEY_BACKSPACE):
+  reset()
+
+if keydown(KEY_ALPHA):
+  text=input("Écrivez votre texte :")
+  write(text)
