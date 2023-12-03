@@ -23,20 +23,20 @@ while True :
 
   #Couleurs
 
-  if keydown(KEY_ONE):
-    color("red")
-  if keydown(KEY_ZERO):
-    color("black")
-  if keydown(KEY_TWO):
-    color ("'blue")
-  if keydown(KEY_THREE):
-    color ("yellow")
-  if keydown (KEY_FOUR):
-    color ( "green ")
-  if keydown(KEY_FIVE):
-    color ("orange")
+if keydown(KEY_ONE):
+  color("red")
+if keydown(KEY_ZERO):
+  color("black")
+if keydown(KEY_TWO)
+  color ("'blue")
+if keydown(KEY_THREE):
+  color ("yellow")
+if keydown (KEY_FOUR):
+  color ( "green ")
+if keydown(KEY_FIVE):
+  color ("orange")
 if keydown(KEY_SIX) :
-    color("purple")
+  color("purple")
 
 # Taille
 
@@ -59,12 +59,16 @@ if keydown(KEY_LEFT):
   setheading(180)
   forward(1)
 
-if keydown(KET_DOWN):
+if keydown(KEY_DOWN):
   setheading(270)
   forward(1)
 
+# Réinitialisation
+
 if keydown(KEY_BACKSPACE):
   reset()
+
+# Introduitre du texte (expérimental)
 
 if keydown(KEY_ALPHA):
   text=input("Écrivez votre texte :")
